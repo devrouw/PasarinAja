@@ -40,7 +40,7 @@ class SignupFragment : Fragment(), SignupContract.View {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         presenter = SignupPresenter(this)
-        initDummy()
+//        initDummy()
         initView()
         initListener()
     }
